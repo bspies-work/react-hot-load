@@ -9,9 +9,11 @@ export default class Root extends Component {
     };
 
     render() {
+        const history = hashHistory;
+        console.log('history', history);
         return (
             <div>
-                <Router history={hashHistory}>
+                <Router history={history}>
                     {this.props.routes}
                 </Router>
             </div>

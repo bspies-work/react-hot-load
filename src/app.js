@@ -15,7 +15,7 @@ render(RootComponent);
 
 if (module.hot) {
     module.hot.accept(['./components/Root', './routes'], () => {
-        const NextRoot = require('./components/Root');
+        const NextRoot = require('./components/Root').default;
         render(NextRoot);
     });
 }
