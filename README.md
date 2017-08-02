@@ -3,7 +3,7 @@
 This project is to reproduce an issue with react-hot-loader where calling setState() from an event handler fails
 with the following error: "Warning: setState(...): Can only update a mounted or mounting component. This usually means you called setState() on an unmounted component. This is a no-op."
 
-This issue is captured in the issue [https://github.com/gaearon/react-hot-loader/issues/593].
+This issue is captured in this [react-hot-loader issue] (https://github.com/gaearon/react-hot-loader/issues/593).
 
 ## Steps to reproduce
 1. Clone this project
