@@ -1,0 +1,39 @@
+{
+  "name": "react-hot-load",
+  "version": "1.0.0",
+  "description": "Reproduce issue with setState() failing in react-hot-loader",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspies-work/react-hot-load.git"
+  },
+  "keywords": [
+    "react",
+    "react-hot-loader"
+  ],
+  "author": "Brennan Spies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bspies-work/react-hot-load/issues"
+  },
+  "homepage": "https://github.com/bspies-work/react-hot-load#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^3.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
